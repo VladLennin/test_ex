@@ -5,15 +5,15 @@ const Header = () => {
     return (
         <div className="header">
             <div className="logo">
-
+                BOICH
             </div>
             <div>
-                <button>Contact</button>
-                <button>
-                    <div className="line"> </div>
+                <button className="contact-btn">Contact</button>
+                <button className="menu-btn">
                     <div className="line"> </div>
                 </button>
             </div>
+
         </div>
     );
 }

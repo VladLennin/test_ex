@@ -1,31 +1,46 @@
-.logo{
-    position: absolute;
-    left: 0%;
-    right: 91.68%;
-    top: 10.42%;
-    bottom: 10.42%;
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 700;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+.logo {
     font-size: 30px;
     line-height: 38px;
     text-transform: uppercase;
-    font-feature-settings: 'ordn' on, 'salt' on;
-
     color: #1C1D1F;
+    font-family: "Sora";
+    font-weight: 700;
 }
 
-.container{
 
-}
-
-.header{
+.header {
     display: flex;
     justify-content: space-between;
 }
 
-.line{
-    margin-top:20px;
-    border-top:2px solid #f00;
-    height:100%;
+
+.menu-btn {
+    border-radius: 22px;
+    width: 70px;
+    height: 48px;
+    border: 1px #1C1D1F solid;
+    padding: 12px;
+    background: transparent;
+    margin-left: 14px;
+}
+
+.line {
+    border-top: 1.5px solid #1C1D1F;
+    border-bottom: 1.5px solid #1C1D1F;
+    height: 10px;
+    width: 30px;
+    margin: 0 auto;
+}
+
+.contact-btn {
+    border-radius: 22px;
+    border: 1px solid #1C1D1F;
+    padding: 14px 32px;
+    font-size: 18px;
+    font-family: "Sora";
+    background: #5125FF;
+    color: #ffff;
+    width: 132px;
+    height: 48px;
 }
