@@ -1,0 +1,24 @@
+.container-selected-works {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-selected-works {
+    display: inline-block;
+    border: #1C1D1F 1px solid;
+    border-radius: 49px;
+    padding: 24px 34px 24px 24px;
+    font-size: 72px;
+    font-family: 'Sora';
+    color: #5125FF;
+    margin: 0 auto;
+    margin-top: 44px;
+}
+
+.header-selected-works img {
+    width: 37px;
+    height: 32px;
+    margin-right: 22.67px;
+}

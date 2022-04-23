@@ -1,15 +1,16 @@
 import React from "react";
 import '../styles/upper-block.css'
-import imac from "../img/imac.jpeg"
-import arrow from "../img/Arrow 2.png"
-import scroll from "../img/scroll.png"
+import imac from "../img/Group 42.png"
+import arrow from "../img/Arrow 2.svg"
+import scroll from "../img/scroll.svg"
 
 const UpperBlock = () => {
     return (
-        <div className="container">
-            <div className="header">
+        <div className="container-upper">
+            <div className="header-upper">
                 <div className="logo">
                     BOICH
+
                 </div>
                 <div>
                     <button className="contact-btn">Contact</button>
