@@ -8,6 +8,7 @@ function App() {
             <UpperBlock/>
             <WeAre/>
             <SelectedWorks/>
+
         </div>
     );
 }

@@ -4,6 +4,8 @@
 .container-upper {
     background: #E5E5E5;
     height: 930px;
+    width: 100%;
+
 }
 
 
@@ -22,6 +24,8 @@
     justify-content: space-between;
     margin: 0 71px;
     padding-top: 33px;
+    width: 100%;
+
 }
 
 
