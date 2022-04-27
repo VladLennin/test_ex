@@ -1,0 +1,28 @@
+.do-card {
+    display: inline-flex;
+    flex-direction: column;
+    height: 350px;
+    width: 293px;
+    margin: 15px 26px;
+    border: #1C1D1F 1px solid;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.do-card-title {
+    font-family: "Sora";
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.do-card-text {
+    font-family: "Sora";
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 12px;
+}
+
+.do-card img {
+    height: 115px;
+}

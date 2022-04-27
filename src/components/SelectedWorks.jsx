@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import arrow3 from "../img/Arrow 3.svg"
+import arrow2 from "../img/Arrow 2.svg"
 import "../styles/selected-works.css"
 import CardWork from "./CardWork";
 
@@ -33,9 +34,13 @@ const SelectedWorks = () => {
     return (
         <div className="container-selected-works">
             <div className="header-selected-works"><img src={arrow3}/>Selected works</div>
+
             {cards.map(card =>
                 <CardWork card={card} key={card.id}></CardWork>
             )}
+            <button className="all-project-btn">
+                All project <img src={arrow2}/>
+            </button>
         </div>
     )
 }

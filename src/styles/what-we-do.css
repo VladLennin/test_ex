@@ -1,0 +1,50 @@
+.wwd-container {
+    vertical-align: top;
+    display: flex;
+    margin-top: 250px;
+}
+
+.wwd-description {
+    width: 30.5vw;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 160px;
+    margin-right: 76px;
+
+}
+
+.wwd-title {
+    font-size: 72px;
+    font-family: "Sora";
+    color: #1C1D1F;
+}
+
+.wwd-text {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Sora";
+    color: #1C1D1F;
+}
+
+.do-card-container {
+    display: inline-block;
+
+    width: 50vw;
+}
+
+.wwd-lets-btn {
+    border-radius: 22px;
+    padding: 14px 32px;
+    background: #1C1D1F;
+    color:#FCFCFF;
+    font-family: "Sora";
+    font-size: 18px;
+    margin-top: 44px;
+    width: 190px;
+    border: none;
+}
+
+.wwd-lets-btn img{
+    margin-left: 13px;
+    width: 16px;
+}

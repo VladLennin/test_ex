@@ -1,8 +1,6 @@
 .container-selected-works {
-    background: #E5E5E5;
     display: flex;
     flex-direction: column;
-    width: 100%;
 
 }
 
@@ -27,7 +25,7 @@
 
 .work-card {
     display: flex;
-    margin-left: 151px;
+    padding-left: 151px;
     margin-top: 105px;
 }
 
@@ -36,7 +34,7 @@
     font-family: "Sora";
     color: #1C1D1F;
     text-transform: uppercase;
-    width:100%;
+    display: inline-block;
     position: absolute;
 }
 
@@ -90,11 +88,9 @@ img.work-img:hover {
     transform: rotate(-30deg) scale(1.1);
 }
 
-.work-img-frame{
+.work-img-frame {
     margin-left: 200px;
 }
-
-
 
 
 .year-line {
@@ -103,12 +99,24 @@ img.work-img:hover {
     margin-left: 16px;
 }
 
-.year-line-block{
+.year-line-block {
     display: flex;
     align-items: center;
     margin-left: 162px;
     color: #9F9F9F;
     font-size: 16px;
     font-family: 'Sora';
+}
+
+.all-project-btn {
+    background: #1C1D1F;
+    border-radius: 22px;
+    height: 65px;
+    margin: 74px 162px 0 162px;
+    font-size: 18px;
+    font-family: "Sora";
+    color: #FCFCFF;
+    border: none;
+
 }
 

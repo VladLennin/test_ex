@@ -2,10 +2,7 @@
 
 
 .container-upper {
-    background: #E5E5E5;
     height: 930px;
-    width: 100%;
-
 }
 
 
@@ -24,7 +21,6 @@
     justify-content: space-between;
     margin: 0 71px;
     padding-top: 33px;
-    width: 100%;
 
 }
 
@@ -71,7 +67,6 @@
     font-size: 54px;
     font-family: "Sora";
     font-weight: 400;
-    line-height: 54px;
 }
 
 .content-text1 span {
